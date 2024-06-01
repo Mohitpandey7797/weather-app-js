@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?size=626&ext=jpg&ga=GA1.2.527004934.1695917988&semt=ais');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .weather-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #weatherInfo {
+    margin-top: 20px;
+  }
+  /* Clouds animation */
+  .clouds {
+    width: 100px;
+    height: 50px;
+    background: url('Cloud.png') no-repeat center;
+    animation: cloudsAnimation 10s linear infinite;
+  }
+  
+
+  /* Clear animation */
+  .clear {
+    width: 100%;
+    height: 200px;
+    background: url('sun.png') no-repeat center;
+  }
+  .fog{
+   
+      width: 100%;
+      height: 200px;
+      background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsJA-7qUtb2q1DYa1rIn1L5y3ckBqnCeAm7A&s') no-repeat center;
+    
+  }
+  
+  /* Rain animation */
+  .rain {
+    width: 100%;
+    height: 200px;
+    background: url('heavy-rain.png') no-repeat center;
+    
+  }
+#weatherAnimation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure the container takes up the full height */
+}
+
+.clouds,
+.clear,
+.rain {
+  width: 100px; /* Adjust the width of the weather icons as needed */
+  height: 100px; /* Adjust the height of the weather icons as needed */
+  /* Add any other styles for the weather icons */
+}
+  
