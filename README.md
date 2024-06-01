@@ -17,4 +17,4 @@ A simple weather application built using HTML, CSS, and JavaScript that fetches 
 - **Weather API**: For fetching real-time weather data.
 
 
-## Visite Site : https://mohitpandey7797.github.io/weather-app-js/
+## Visit Site : https://mohitpandey7797.github.io/weather-app-js/
